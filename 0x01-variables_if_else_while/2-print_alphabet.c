@@ -5,7 +5,7 @@
  *
  * Description: print all aplhabet letters
  *
- * Retrun: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
