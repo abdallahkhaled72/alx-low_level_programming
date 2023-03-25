@@ -23,7 +23,7 @@ void print_times_table(int n)
 				prod = num * mult;
 
 				if (prod <= 9)
-					-putchar(' ');
+					_putchar(' ');
 				if (prod <= 99)
 					_putchar(' ');
 
