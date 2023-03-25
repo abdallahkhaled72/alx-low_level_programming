@@ -6,7 +6,7 @@
  * @a: first input
  * @b: second input
  *
- * return: sum of a 7 b
+ * Return: sum of a 7 b
 */
 
 int add(int a, int b)
