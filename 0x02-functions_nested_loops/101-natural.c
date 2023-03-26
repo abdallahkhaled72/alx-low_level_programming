@@ -1,9 +1,7 @@
 #include "main.h"
 
 /*
- * The main function prompts the user for n 
- *	and calls the print_natural_num 
- *	bers() function.
+ * main - Entry point
  *
  * Description: computes the sum of all
  *		the multiples of 3 or 5
