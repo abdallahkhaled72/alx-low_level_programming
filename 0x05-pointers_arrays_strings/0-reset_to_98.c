@@ -1,14 +1,15 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * _putchar - write the character c to the stdout
- * @c: The character to print
+ * reset_to_98 - takes a pointer to an int paramerter
+ *		and updates the value it points to 98
  *
- * Return on success 1.
- * on error, -1 is returned, and errno is set appropriately
+ * @n: int parameter
+ *
+ * Return: Nothing
 */
 
-int _putchar(char c)
+void reset_to_98(int *n)
 {
-	return (write(1, &c, 1));
+	*n = 98;
 }
