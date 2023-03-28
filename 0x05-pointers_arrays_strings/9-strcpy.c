@@ -3,8 +3,8 @@
 /**
  * *_strcpy - copies the string pointed to by src
  *
- * 8dest: char type string
- * 8src: char type string
+ * $dest: char type string
+ * $src: char type string
  * Description: copy the string pointed to by pointer `scr` to
  * the buffer pointed to by `dest`
  * Return: Pointer to `dest`
