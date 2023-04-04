@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * *_strchr - fills memory with a constant byte
+ * *_strchr - looking for a character
+ *
  * @s: pointer to put the constant
  * @c: constant
- * Retrun: pointer to s
+ * Return: pointer to s
  */
 
 char *_strchr(char *s, char c)
