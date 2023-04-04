@@ -22,7 +22,6 @@ char *_strstr(char *haystack, char *needle)
 		while (needle[n2] != '\0')
 		{
 			if (needle[n2] == s[n1])
-
 			{
 				p = &haystack[n1];
 				return (p);
