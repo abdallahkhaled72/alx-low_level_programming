@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * *_strchr - replace a spicific character with another one
- * @s: pointer to put the constant
+ * *_strchr - fills memory with a constant byte
+ * * @s: pointer to put the constant
  * @c: constant
  *
  * Retrun: pointer to s
