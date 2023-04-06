@@ -25,7 +25,7 @@ int count_index(char *s)
 
 int is_palindrome(char *s)
 {
-	int end = count_index(S);
+	int end = count_index(s);
 
 	return (test(s, 0, end - 1, end % 2));
 }
