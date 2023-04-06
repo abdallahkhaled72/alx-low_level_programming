@@ -27,5 +27,5 @@ int test(int num, int r)
 	else if (num % r == 0 || num <= 1)
 		return (0);
 	else
-		return (test(n, r + 1));
+		return (test(num, r + 1));
 }
