@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 {
 	if (argc == 2)
 	{
-		int y, changer = 0, amount = argv[1];
+		int y, changer = 0, amount = atoi(argv[1]);
 		int base[] = {25, 10, 5, 2, 1};
 
 		for (y = 0; y < 5; y++)
