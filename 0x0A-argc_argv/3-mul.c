@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - print multiplication result of two numbers
@@ -21,4 +22,5 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
+	return (0);
 }
