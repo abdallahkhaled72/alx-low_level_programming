@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 
 		for (y = 0; y < 5; y++)
 		{
-			if (money >= base[i])
+			if (amount >= base[i])
 			{
 				changer += amount / base[i];
 				amount = amount % base[i];
