@@ -5,7 +5,7 @@
  * main - print the summation of numbers
  * @argc: int
  * @argv: list
- * Return: integer number or Error or 0
+ * Return: Always 0
 */
 
 int main(int argc, char **argv)
