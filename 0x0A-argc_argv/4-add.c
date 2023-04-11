@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 	{
 		while (--argc)
 		{
-			for (check = argv[argc]; *c; c++)
+			for (check = argv[argc]; *check; check++)
 			{
 				if (*check < 48 || *check > 58)
 					return (printf("Error\n"), 1);
