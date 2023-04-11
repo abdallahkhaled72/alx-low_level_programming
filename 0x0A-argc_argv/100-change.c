@@ -18,11 +18,11 @@ int main(int argc, char **argv)
 
 		for (y = 0; y < 5; y++)
 		{
-			if (amount >= base[i])
+			if (amount >= base[y])
 			{
-				changer += amount / base[i];
-				amount = amount % base[i];
-				if (amount % base[i] == 0)
+				changer += amount / base[y];
+				amount = amount % base[y];
+				if (amount % base[y] == 0)
 				{
 					break;
 				}
